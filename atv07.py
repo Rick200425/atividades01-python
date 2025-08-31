@@ -7,7 +7,7 @@ CARDAPIO = {
 def executar():
     print("\n--- Cardápio ---")
     for codigo, item in CARDAPIO.items():
-        print(f"{codigo} - {item['nome']} - R$ {item['preco']:.2f}")
+        print(f"{codigo} - {item['nome']} - R$ {item['preço']:.2f}")
 
         entrada = input("Digite o código do item desejado: ").strip()
         try:
@@ -18,12 +18,12 @@ def executar():
 
         if codigo in CARDAPIO:
             item = CARDAPIO[codigo]
-            print(f"Você escolheu: {item['nome']} - R$ {item['preco']:.2f}")
+            print(f"Você escolheu: {item['nome']} - R$ {item['preço']:.2f}")
         else:
             print("Opção inválida.")
 
 
 
-            if __name__ == "__main__":
-                executar()
+if __name__ == "__main__":
+    executar()
                 
