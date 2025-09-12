@@ -2,7 +2,7 @@ pao = 0.75
 broa = 1.75
 refrigerante = 12.00
 
-qtd_pao = int(input("Quantos pães vocÊ deseja: "))
+qtd_pao = int(input("Quantos pães você deseja: "))
 qtd_broa = int(input("Quantas broas você deseja: "))
 qtd_refrigerante = int(input("Quantos refrigerantes você deseja: "))
 
