@@ -1,0 +1,3 @@
+Nome | Idade | Cidade
+Ana | 28 | RECIFE
+JE | 28 | OLINDA
